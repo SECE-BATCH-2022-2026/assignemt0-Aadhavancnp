@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Resume</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #4caf50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      section {
+        display: flex;
+      }
+      aside,
+      article {
+        padding: 20px;
+      }
+      aside {
+        background-color: #f4f4f4;
+        flex: 1;
+      }
+      article {
+        flex: 3;
+      }
+      footer {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Resume</h1>
+    </header>
+    <section>
+      <aside>
+        <h2>Contact Information</h2>
+        <p>Name: Aadhavan</p>
+        <p>Email: aadhavan313@gmail.com</p>
+        <p>Phone: 123-456-7890</p>
+      </aside>
+      <article>
+        <h2>Education</h2>
+        <h3>Bachelor of Engineering in Computer Science Engineering</h3>
+        <p>
+          Sri Eshwar College of Enginnering, Expected Graduation Date: May 2026
+        </p>
+
+        <h2>Skills</h2>
+        <ul>
+          <li>Proficient in Java, C++, Rust, and Python</li>
+          <li>
+            Experience with front-end development using HTML, CSS, and
+            JavaScript
+          </li>
+          <li>Familiarity with Agile development methodologies</li>
+          <li>Strong problem-solving and analytical skills</li>
+          <li>Excellent written and verbal communication skills</li>
+        </ul>
+
+        <h2>Projects</h2>
+        <h3>Admin Dashboard</h3>
+        <p>Dashboard for Admin to manage all Users.</p>
+
+        <h3>Mobile Recharge App</h3>
+        <p>App with Login Info and Recharge Features.</p>
+
+        <h2>Work Experience</h2>
+        <h3>Software Engineering Intern</h3>
+        <p>IntermsLLC Company, Cbe 2026</p>
+
+        <ul>
+          <li>
+            Developed new features for the company's web application using Java
+            and JavaScript.
+          </li>
+          <li>
+            Collaborated with a team of developers using Agile methodologies.
+          </li>
+          <li>
+            Improved the performance of the web application by optimizing
+            database queries.
+          </li>
+          <li>Wrote unit tests to ensure the quality of the code.</li>
+        </ul>
+
+        <ul>
+          <li>
+            Assisted the professor in grading assignments and exams for a course
+            on Data Structures and Algorithms.
+          </li>
+          <li>Held office hours to help students with their coursework.</li>
+          <li>
+            Prepared and presented tutorials on various topics related to the
+            course.
+          </li>
+        </ul>
+      </article>
+    </section>
+    <footer>
+      <p>Copyright © <span id="currentDate"></span> Aadhavan</p>
+    </footer>
+    <script>
+      const date = new Date();
+      document.querySelector("#currentDate").textContent = date.getFullYear();
+    </script>
+  </body>
+</html>
